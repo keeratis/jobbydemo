@@ -1,0 +1,70 @@
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 1.2em;
+}
+
+.nav-space {
+  margin-right: 10px;
+}
+
+.bg-jobby {
+  background: #19334f;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: Bold;
+}
+
+.navbar-dark .navbar-brand {
+  color: white;
+}
+.App {
+  text-align: center;
+  margin-top: 10%;
+}
+.btn-xl {
+  padding: 60px 70px;
+  font-size: 1.8em;
+  border-radius: 20px;
+  text-align: center;
+}
+.login {
+  text-align: center;
+  margin-top: 8%;
+}
+input {
+  margin: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+}
+@media screen and (max-width: 1600px) {
+  * {
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  input {
+    width: 90%;
+    margin-top: 0;
+  }
+  .register {
+    position: sticky;
+    margin-bottom: 20px;
+  }
+  .btn-xl {
+    padding: 40px 50px;
+    font-size: 1.5em;
+    border-radius: 15px;
+    text-align: center;
+  }
+}
+.btn-work {
+  text-align: center;
+}
+.register {
+  margin-top: 3%;
+}
+.registerButton {
+  margin-top: 10px;
+}
