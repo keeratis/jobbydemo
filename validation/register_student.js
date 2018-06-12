@@ -24,10 +24,10 @@ module.exports = function validateRegisterStudent(data) {
   }
 
   if (Validator.isEmpty(data.tel)) {
-    errors.birtDate = "โปรดเบอร์โทรศัพท์";
+    errors.tel = "โปรดเบอร์โทรศัพท์";
   }
   if (Validator.isEmpty(data.university)) {
-    errors.birtDate = "โปรดมหาวิทยาลัย";
+    errors.university = "โปรดใส่ชื่อมหาวิทยาลัย";
   }
   if (Validator.isEmpty(data.email)) {
     errors.email = "โปรดใส่อีเมล";
