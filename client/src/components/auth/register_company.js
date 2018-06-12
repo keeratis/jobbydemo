@@ -85,8 +85,8 @@ class Companyregister extends Component {
                       "is-invalid": errors.password
                     })}
                   />
+                  <div className="invalid-feedback">{errors.password}</div>
                 </Col>
-                <div className="invalid-feedback">{errors.password}</div>
               </Row>
               <Row className="margin-top-2">
                 <Col md="4">ยืนยันรหัสผ่าน</Col>
@@ -114,7 +114,7 @@ class Companyregister extends Component {
                       "is-invalid": errors.fname
                     })}
                   />
-                  <div className="invalid-feedback">{errors.name}</div>
+                  <div className="invalid-feedback">{errors.fname}</div>
                 </Col>
               </Row>
               <Row className="margin-top-2">
@@ -142,7 +142,7 @@ class Companyregister extends Component {
                       "is-invalid": errors.idNo
                     })}
                   />
-                  <div className="invalid-feedback">{errors.name}</div>
+                  <div className="invalid-feedback">{errors.idNo}</div>
                 </Col>
               </Row>
             </Col>
@@ -185,7 +185,6 @@ class Companyregister extends Component {
                     value={this.state.companyDetail}
                     onChange={onChange}
                   />
-                  <div className="invalid-feedback">{errors.name}</div>
                 </Col>
               </Row>
               <Row className="margin-top-2">

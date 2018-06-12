@@ -26,7 +26,7 @@ module.exports = function validateRegisterCompany(data) {
     errors.idNo = "โปรดใส่รหัสบัตรประชาชน";
   }
   if (Validator.isEmpty(data.tel)) {
-    errors.tel = "โปรดเบอร์โทรศัพท์";
+    errors.tel = "โปรดใส่เบอร์โทรศัพท์";
   }
   if (Validator.isEmpty(data.email)) {
     errors.email = "โปรดใส่อีเมล";
